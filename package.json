@@ -1,0 +1,19 @@
+{
+  "name": "image-api",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.12.2",
+    "blurhash": "^2.0.5",
+    "hono": "^4.6.1",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "tsx": "^4.7.1",
+    "typescript": "^5.6.2"
+  }
+}
